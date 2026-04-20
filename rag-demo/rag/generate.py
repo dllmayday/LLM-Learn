@@ -7,7 +7,7 @@ def generate_answer(query):
     docs = retrieve(query)
 
     context = "\n".join(docs)
-
+    print("context：", context)
     prompt = f"""
 你是一个专业助手，请基于以下资料回答问题：
 
@@ -24,7 +24,7 @@ def generate_answer(query):
 
     try:
         res = requests.post(OLLAMA_URL, json={
-            "model": "phi3",
+            "model": "qwen2.5:0.5b",
             "prompt": prompt,
             "stream": False
         })
