@@ -1,5 +1,6 @@
 
 参考链接：[langchain-doc](https://langchain-doc.cn/)
+参考链接：[langchain-doc](https://langchain-doc.cn/)
 ## 目录结构
 
 
@@ -17,6 +18,9 @@ pip install -U langchain-anthropic
 
 # 安装 OpenAI 集成
 pip install -U langchain-openai
+
+# 安装 DashScope 集成 阿里云百炼
+python3 -m pip install -U dashscope
 ```
 
 ## 实现说明

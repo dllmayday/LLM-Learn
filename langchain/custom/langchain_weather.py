@@ -22,12 +22,14 @@
 import os
 from langchain.agents import create_agent
 from langchain_openai import ChatOpenAI
+from langchain.tools import tool, ToolRuntime
 
 # 配置火山引擎方舟
 api_key = os.getenv("ARK_API_KEY")
 base_url = "https://ark.cn-beijing.volces.com/api/v3"
 
 # 联网搜索工具
+@tool
 def web_search(query: str) -> str:
     """联网搜索实时信息：天气、新闻、数据"""
     from openai import OpenAI
