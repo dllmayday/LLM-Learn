@@ -1,6 +1,9 @@
 
-参考链接：[langchain-doc](https://langchain-doc.cn/)
-参考链接：[langchain-doc](https://langchain-doc.cn/)
+
+参考链接：[docs.langchain.com官网](https://docs.langchain.com/oss/python/langchain/overview)
+参考链接：[langchain-doc.cn](https://langchain-doc.cn/)
+参考链接：[www.langchain.com.cn](https://www.langchain.com.cn/docs/introduction/)
+
 ## 目录结构
 
 
