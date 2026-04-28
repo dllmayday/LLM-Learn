@@ -33,7 +33,11 @@ conda create --name jupyter-env python=3.13
 ```
 conda activate jupyter-env
 ```
-虚拟环境中默认已经安装了Jupyter, 可直接创建Jupyter Notebook服务器
+安装了Jupyter
+```
+conda install jupyter
+```
+启动Jupyter
 ```
 jupyter notebook
 ```
